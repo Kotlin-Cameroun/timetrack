@@ -127,5 +127,5 @@ The **resources** package contains static files and configuration files necessar
 
 ## Authors
 
-- **[]** - Lead Developer & Business Optimization  
+- **[@Icode]** - Lead Developer & Business Optimization  
 - **Kotlin Community Cameroon**
