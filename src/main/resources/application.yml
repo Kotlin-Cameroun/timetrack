@@ -1,0 +1,26 @@
+spring:
+  application:
+    name:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/timetrack_db
+    username: postgres
+    password: Ulrich@DW123-
+    jpa:
+      hibernate:
+        ddl-auto: update
+        show-sql: true
+  web:
+    mvc:
+      servlet:
+        path: /api/v1
+  logging:
+    level:
+      org.hibernate.SQL: DEBUG
+      org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+
+  jwt:
+    secret:
+      key: kcsecret656fujd
+
+server:
+  port: 8082
